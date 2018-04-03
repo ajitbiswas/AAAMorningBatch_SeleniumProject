@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18408" started-at="2018-03-29T04:43:21Z" finished-at="2018-03-29T04:43:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18408" started-at="2018-03-29T04:43:21Z" finished-at="2018-03-29T04:43:40Z">
+      <class name="scripts.VerifyProductVersion">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.VerifyProductVersion@5622fdf]" name="openApplication" is-config="true" duration-ms="8149" started-at="2018-03-29T10:13:21Z" finished-at="2018-03-29T10:13:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testProductVersion()[pri:0, instance:scripts.VerifyProductVersion@5622fdf]" name="testProductVersion" duration-ms="10128" started-at="2018-03-29T10:13:30Z" finished-at="2018-03-29T10:13:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductVersion -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.VerifyProductVersion@5622fdf]" name="closeApplication" is-config="true" duration-ms="101" started-at="2018-03-29T10:13:40Z" finished-at="2018-03-29T10:13:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductVersion status=SUCCESS method=VerifyProductVersion.testProductVersion()[pri:0, instance:scripts.VerifyProductVersion@5622fdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.VerifyProductVersion -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
